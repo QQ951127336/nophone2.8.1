@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView_tree" android:visibility="visible">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#fffafcfc">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="640dp"
+                android:id="@+id/imageView_tree"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/tree_lv1"
+                android:layout_centerHorizontal="true"/>
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageView_tree_leaf1"
+                android:src="@drawable/tree_leaf"
+                android:layout_gravity="center"
+                android:layout_marginTop="374dp"
+                android:layout_marginRight="78dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"/>
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageView_tree_leaf2"
+                android:src="@drawable/tree_leaf"
+                android:layout_gravity="center"
+                android:layout_marginBottom="38dp"
+                android:layout_alignBottom="@+id/imageView_tree_leaf1"
+                android:layout_toLeftOf="@+id/imageView_tree_leaf1"
+                android:layout_marginRight="102dp"/>
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageView_tree_leaf3"
+                android:src="@drawable/tree_leaf"
+                android:layout_gravity="center"
+                android:layout_marginRight="64dp"
+                android:layout_below="@+id/imageView_tree_leaf1"
+                android:layout_toLeftOf="@+id/imageView_tree_leaf2"
+                android:layout_marginTop="60dp"/>
+        <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageView_tree_leaf4"
+                android:src="@drawable/tree_leaf"
+                android:layout_gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/imageView_tree_leaf2"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="145dp"/>
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>
